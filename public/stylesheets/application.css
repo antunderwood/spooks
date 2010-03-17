@@ -1,0 +1,137 @@
+* { padding: 0; margin: 0; }
+
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  background: #D0C3A3
+;
+}
+
+p {
+  padding : 5px;
+}
+
+a { color: #000; }
+a:visited { color: #000; }
+a:hover { color: #fff; background-color:#000; }
+#wrapper { 
+  margin: 5px auto;
+  width: 1000px;
+}
+
+#content { 
+  float: left;
+  color: #333;
+  background: #D0C3A3
+;
+ // height: 600px;
+  width: 1000px;
+  display: inline;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+#content h1{
+  font-size: 50px;
+  font-weight:  bold;
+  color: #660000;
+}
+#content table{
+  text-align: right;
+  margin: auto;
+  padding-top: 40px;
+}
+#content h2{
+  font-size: 30px;
+  font-weight:  bold;
+  display:  inline;
+}
+.login_field, .secret_message_form_text{
+  font-size: 30px;
+  font-weight :bold;
+  color: #660000;
+  padding: 1px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border: 1px #FFFFFF;
+}
+.submit
+{
+   font-size: 30px;
+   font-weight :bold;
+   color: #660000;
+   padding: 5px 15px;
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   background-color: #FFFFCC;
+   border: 4px solid #000000;
+}
+#current_user{
+  font-size: 15px;
+  color: #660000;
+}
+.current_mission{
+  color: #660000;
+	font-weight: bold;
+}
+#secret_message_form {
+  font-size: 30px;
+  margin-top: 50px;
+}
+#header {
+  color: #333;
+  width: 1000px;
+  float: left;
+  //height: 120px;
+  background: #D0C3A3
+;
+  text-align: center;
+}
+
+#footer { 
+  width: 1000px;
+  height: 25px;
+  clear: both;
+  color: #333;
+  background: #FFFFFF;
+}
+
+
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#errorExplanation {
+  //width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+	margin-top: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+ // text-align: left;
+ display: none;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: none;
+}
+
